@@ -26,11 +26,11 @@ class Chat extends HTMLElement {
 
 .chat${suffix} ul { list-style: none; } 
 
-/* chatbox */
+/* chatbot */
 .chat${suffix} {
   max-width: 400px;
   min-height: 400px;
-  background-color: #fff; 
+  background-color: #c9a6c1; 
   padding-right: 15px;
   padding-left: 15px;button
   border-radius: 1rem;
@@ -60,13 +60,13 @@ class Chat extends HTMLElement {
 }
 
 .chat${suffix} .item-primary {
-  background-color: #f6f7f8;
-  color: #3c3c3e;
+  background-color: #7e3b5a;
+  color: #fff;
   margin-right: 2em;
 }
 
 .chat${suffix} .item-secondary {
-  background-color: #5ccad7;
+  background-color: #7e3b5a;
   color: #fff;
   margin-left: 2em;
 }

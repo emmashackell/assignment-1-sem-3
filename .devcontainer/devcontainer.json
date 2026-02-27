@@ -1,4 +1,7 @@
 {
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     // ...
     "overrideCommand": true,
     "customizations": {
